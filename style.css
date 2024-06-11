@@ -1,0 +1,61 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.top{
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: row;
+}
+.topLeft, .topRight{
+    display: flex;
+    width:40%;
+}
+.topRight{
+    justify-content: right;
+}
+.kobeImg{
+    margin-top:5px;
+    height:30px;
+}
+
+.backNav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+.backNavItems{
+    font-weight: bold;
+    font-size: 12px;
+    font-style: normal;
+    margin: 0px;
+    padding:20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.backNavItemsBorder{
+    border-color: black;
+    border-left: solid;
+    border-width: 1px;
+
+}
+.navBar{
+    display: flex;
+}
+.mainLogo{
+    height:50px;
+}
+.navBarItems{
+    display: flex;
+    font-size:10px;
+    padding:12px;
+}
+.navBarLeft, .navBarMiddle, .navBarRight{
+    width: 33%;
+    display: flex;
+}
